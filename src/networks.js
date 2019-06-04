@@ -452,6 +452,18 @@ module.exports = {
     coin: coins.BTC,
     hashFunctions: hashFunctions
   },
+  axe: {
+    messagePrefix: '\x19Axe Signed Message:\n',
+    bip32: {
+      public: 0x0488b21e,
+      private: 0x0488ade4
+    },
+    pubKeyHash: 0x37, // https://dash-docs.github.io/en/developer-reference#opcodes
+    scriptHash: 0x10,
+    wif: 0xcc,
+    coin: coins.DASH,
+    hashFunctions: hashFunctions
+  },
   /* btcp: { // TODO
     messagePrefix: '\x18Bitcoin Private Signed Message:\n',
     bech32: 'btg',
