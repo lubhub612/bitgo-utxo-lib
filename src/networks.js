@@ -272,9 +272,7 @@ module.exports = {
       1: 0x00,
       2: 0x00,
       3: 0x5ba81b19,
-      4: 0x76b809bb,
-      5: 0x00,
-      6: 0x76b809bb
+      4: 0x76b809bb
     },
     coin: coins.ZEC,
     hashFunctions: hashFunctions
@@ -464,42 +462,6 @@ module.exports = {
     scriptHash: 0x10,
     wif: 0xcc,
     coin: coins.DASH,
-    hashFunctions: hashFunctions
-  },
-  dogecoin: {
-    messagePrefix: '\x19Dogecoin Signed Message:\n',
-    bip32: {
-      public: 0x02facafd,
-      private: 0x02fac398
-    },
-    pubKeyHash: 0x1e, // https://dash-docs.github.io/en/developer-reference#opcodes
-    scriptHash: 0x16,
-    wif: 0x9e,
-    coin: coins.BTC,
-    hashFunctions: hashFunctions
-  },
-  digibyte: {
-    messagePrefix: '\x19Digibyte Signed Message:\n',
-    bip32: {
-      public: 0x0488b21e,
-      private: 0x0488ade4
-    },
-    pubKeyHash: 0x1e, // https://dash-docs.github.io/en/developer-reference#opcodes
-    scriptHash: 0x3f,
-    wif: 0x80,
-    coin: coins.BTC,
-    hashFunctions: hashFunctions
-  },
-  sinovate: {
-    messagePrefix: '\x18Sinovate Signed Message:\n',
-    bip32: {
-      public: 0x0488b21e,
-      private: 0x0488ade4
-    },
-    pubKeyHash: 0x3f, // https://dash-docs.github.io/en/developer-reference#opcodes
-    scriptHash: 0x05,
-    wif: 0xbf,
-    coin: coins.BTC,
     hashFunctions: hashFunctions
   },
   /* btcp: { // TODO
