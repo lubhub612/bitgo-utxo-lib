@@ -235,7 +235,7 @@ module.exports = {
     coin: coins.ZEC,
     hashFunctions: hashFunctions
   },
-z vcoin: {
+  vcoin: {
     messagePrefix: '\x18Vcoin Signed Message:\n',
     bech32: 'bc',
     bip32: {
